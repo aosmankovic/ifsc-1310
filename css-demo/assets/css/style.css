@@ -149,6 +149,10 @@ aside div.container{
     justify-content:space-between;
 }
 
+article.widget{
+    width:45%;
+}
+
 
 
 
