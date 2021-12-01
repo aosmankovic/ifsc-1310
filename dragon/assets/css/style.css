@@ -1,0 +1,166 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+.container {
+  width: 80vw;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Mohave', sans-serif;
+  margin: 0;
+}
+
+header.primary {
+  background-color: #1b2c38;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
+  padding: 6em 2em;
+  position: relative;
+}
+
+header.primary::before {
+  content: "";
+  background-image: url("../img/dragonInSpace.jpg");
+  background-size: cover;
+  position: absolute;
+  top:50px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.4;
+}
+
+header.primary img {
+  height:40px;
+  width: 300px;
+  position: absolute;
+  top:0;
+  left:0;
+}
+header.primary h1 {
+  font-size: 4.2rem;
+  margin: 20px 0;
+  position: relative;
+  text-transform: uppercase;
+}
+
+header.primary h1 a {
+  position: absolute;
+  top:0;
+  width: 450px;
+  height: 70px;
+  margin: 0 auto;
+  color: #ffffff;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+header.primary h2 {
+  font-family: "Goldman", cursive;
+  font-size: 2em;
+  /* Shorhand Three Value Top, Left/Right, Bottom*/
+  margin: 20px auto 40px;
+  position: relative;
+}
+
+
+header.primary nav ul {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+header.primary nav li {
+  list-style-type: none;
+  padding: 0;
+  width: 20%;
+  text-transform: uppercase;
+  text-shadow: none;
+}
+
+header.primary nav a:link,
+header.primary nav a:visited {
+  color: white;
+  text-decoration: none;
+  
+  padding: 8px;
+  
+  display: block;
+}
+
+
+
+section#content {
+  padding:1em 0;
+}
+
+section#content h2{
+  font-family: 'Mohave', sans-serif;
+  font-size: 1.8em;
+  color:#000000;
+  border-left: 6px solid #9AAFD9;
+  border-bottom: 6px solid #9AAFD9;
+  padding-left: 10px;
+  text-align: left;
+}
+
+section#content h3 {
+  border-left:6px solid #9AAFD9;
+  padding-left: 10px;
+}
+
+section#content li {
+  margin-top:10px;
+}
+
+
+footer#colophon {
+  background-color: #1b2c38;
+}
+
+#colophon h6 {
+  padding: 20px;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+#content details {
+  padding:5px;
+}
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
