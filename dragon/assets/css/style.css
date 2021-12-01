@@ -82,13 +82,14 @@ header.primary h2 {
 
 
 header.primary nav ul {
-  position: relative;
+  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  top:0;
   padding: 0;
   max-width: 900px;
-  margin: 20px auto;
+  margin-left:300px;
 }
 
 header.primary nav li {
@@ -151,6 +152,16 @@ footer#colophon {
 #content details {
   padding:5px;
 }
+
+#content h1 {
+  border-left: 6px solid #9AAFD9;
+  border-bottom: 6px solid #9AAFD9;
+  padding-left: 10px;
+  font-family: 'Mohave', sans-serif;
+  font-size: 1.8em;
+  color:#000000;
+}
+
 
 
 
