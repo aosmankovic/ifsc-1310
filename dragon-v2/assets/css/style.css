@@ -76,7 +76,6 @@ header.primary h2 {
   position: relative;
 }
 
-
 header.primary nav ul {
   position: relative;
   display: flex;
@@ -182,6 +181,22 @@ footer#colophon {
   color:#000000;
 }
 
+.tiler {
+	background-color: #CCC;
+	width: 730px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #999;
+	height: 516px;
+	overflow: hidden; /*Avoids showing all of the images momentarily while JS loads */
+	border-radius: 4px;
+}
+.tiler img {
+	margin: 15px;
+	width: 700px;
+	height: 490px;
+}
 
 
 
