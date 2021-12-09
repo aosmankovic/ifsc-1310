@@ -25,3 +25,7 @@ h1, h2 {
 .content {
   background:#ffffff;
 }
+
+a:visited {
+  color:#000000;
+}

@@ -7,14 +7,11 @@ html {
   box-sizing: inherit;
 }
 
-
 .container {
   width: 80vw;
   margin: 40px auto;
   max-width: 900px;
 }
-
-
 
 img {
   max-width: 100%;
@@ -30,7 +27,6 @@ header.primary {
   background-color: #1b2c38;
   text-align: center;
   color: #ffffff;
-  text-shadow: 2px 2px #000000;
   padding: 6em 2em;
   position: relative;
   height:300px;
@@ -66,7 +62,6 @@ header.primary h1 a {
   font-size:4rem;
   margin: 0 auto;
   color: #ffffff;
-  text-shadow: none;
 }
 
 header.primary h2 {
@@ -79,8 +74,9 @@ header.primary h2 {
 header.primary nav ul {
   position: relative;
   display: flex;
-  padding: 0;
+  padding-left: 5px;
   max-width: 500px;
+  justify-content:space-between;
 }
 
 header.primary nav li {
@@ -88,7 +84,6 @@ header.primary nav li {
   padding: 0;
   width: 20%;
   text-transform: uppercase;
-  text-shadow: none;
 }
 
 header.primary nav a:link,
@@ -100,13 +95,10 @@ header.primary nav a:visited {
 }
 
 .nav {
-  overflow: hidden;
   padding-left:300px;
-  position: fixed; 
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  height:50px;
-  background:#1b2c38;
+  position: absolute; 
+  top: 0; 
+  height:50px
 }
 
 .primary img {
@@ -121,13 +113,13 @@ header.primary nav a:visited {
   text-decoration: none;
 }
 
-/* Change background on mouse-over */
 .nav li:hover {
   text-decoration:underline;
 }
 
 section#content {
   padding:1em 0;
+  text-align: justify;
 }
 
 section#content h2{
@@ -154,7 +146,7 @@ footer#colophon {
   background-color: #1b2c38;
 }
 
-#colophon h6, a {
+#colophon h6, .primary a, #colophon a{
   padding: 20px;
   margin: 0;
   color: #fff;
@@ -181,22 +173,88 @@ footer#colophon {
   color:#000000;
 }
 
-.tiler {
-	background-color: #CCC;
+.gallery {
 	width: 730px;
 	margin-top: 40px;
 	margin-right: auto;
 	margin-left: auto;
-	border: 1px solid #999;
+	border-bottom: 1px solid #1b2c38;
+	border-top: 1px solid #1b2c38;
 	height: 516px;
-	overflow: hidden; /*Avoids showing all of the images momentarily while JS loads */
-	border-radius: 4px;
+	overflow: hidden;
 }
-.tiler img {
+.gallery img {
 	margin: 15px;
 	width: 700px;
 	height: 490px;
 }
+
+#bonus {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between; 
+    padding-bottom:2.8rem;
+}
+
+#bonus article.post{
+    width:30%;
+    box-shadow:0 4px 8px rgba(0,0,0,.4);
+    padding:10px;
+    border-radius:4px;
+    font-size:0.7rem;
+    flex-wrap: wrap;
+}
+
+#bonus article.post:hover{
+    box-shadow:0 8px 16px rgba(0,0,0,.6);
+    transition:0.5s;
+}
+
+#bonus .post figure{
+    margin:0;
+}
+
+.post a{
+    color:#1b2c38;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.post a:hover{
+    text-decoration:none;
+}
+
+#bonus img {
+  width: 300px;
+  height:150px;
+}
+
+#bonus p {
+  text-align: justify;
+}
+
+#bonus a {
+  padding:0;
+}
+
+details {
+  border-bottom:1px solid #000000;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+summary:active, summary:hover {
+  background:#F0F0F2;
+  cursor: pointer;
+}
+
+
+
+
+
 
 
 
