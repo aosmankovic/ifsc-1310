@@ -8,9 +8,8 @@ html {
 }
 
 .container {
-  width: 80vw;
+  width: 70vw;
   margin: 40px auto;
-  max-width: 900px;
 }
 
 img {
@@ -64,13 +63,6 @@ header.primary h1 a {
   color: #ffffff;
 }
 
-header.primary h2 {
-  font-family: "Goldman", cursive;
-  font-size: 2em;
-  margin: 20px auto 40px;
-  position: relative;
-}
-
 header.primary nav ul {
   position: relative;
   display: flex;
@@ -82,7 +74,6 @@ header.primary nav ul {
 header.primary nav li {
   list-style-type: none;
   padding: 0;
-  width: 20%;
   text-transform: uppercase;
 }
 
@@ -146,8 +137,17 @@ footer#colophon {
   background-color: #1b2c38;
 }
 
-#colophon h6, .primary a, #colophon a{
+#colophon h6{
   padding: 20px;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#colophon a, .primary a {
   margin: 0;
   color: #fff;
   text-align: center;

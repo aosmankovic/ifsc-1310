@@ -29,3 +29,10 @@ h1, h2 {
 a:visited {
   color:#000000;
 }
+
+p {
+  text-align: justify;
+  margin:20px;
+}
+
+
